@@ -1,0 +1,62 @@
+@media (max-width:760px) {
+    .flex-container,
+    .grid-container {
+        display: block;
+    }
+
+    [class^="col"]{
+        width: 100%;
+    }
+
+    .card {
+        margin: 6% 0;;
+    }
+
+
+    .mobilemenu {
+        display: block;
+        font-size: 35px;
+        color: var(--accent-color);
+        float: right;
+        cursor: pointer;
+    }
+
+    ul.topnav {
+        width: 50%;
+        height: 100vh;
+        background-color: var(--highlight-color);
+        position: fixed;
+        top:12%;
+        left: -100%;
+        z-index: 1;
+    }
+
+    ul.topnav li {
+        display: block;
+        text-align: center;
+        padding:10px 0;
+    }
+
+    ul.topnav li a {
+        color: white;
+    }
+
+    #check:checked ~ ul.topnav {
+        left:0;
+        transition: all, .5s;
+    }
+
+    .address,
+    .ad-card,
+    .grid-container3,
+    .best-d,
+    .footer,
+    .f-logo,
+    footer ul,
+    .newsletter {
+        display:block;
+        margin-top: 10%;
+    }
+
+}
+

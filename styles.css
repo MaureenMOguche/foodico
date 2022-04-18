@@ -24,7 +24,7 @@
 
 .grid-container3 {
     width: 100%;
-    padding: 5% 10%;
+    padding: 2% 10% 5% 10%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1%;
@@ -158,10 +158,11 @@ h2 {
 
 /* address */
 .address {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     width: 60%;
     margin:6% auto;
-    justify-content: space-between;
+    grid-gap: 5%;
 }
 
 .ad-card {
@@ -178,6 +179,9 @@ p.bold {
 
 /**/
 
+.best-dishes {
+    text-align: center;
+}
 .best-d {
     background-color:#ff66339d;
     padding: 5% 8%;
